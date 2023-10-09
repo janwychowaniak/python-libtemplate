@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-egg/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest cache and outputs
+.pytest_cache/
+test_results.xml
+
+# IDEs and editors
+# PyCharm/IntelliJ
+.idea/
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Environments
+venv/
+myenv/
+.env
+
+# Others
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# You can also ignore specific files or folders that are specific to your project setup
+# For example:
+# config.py  (if you have a config file with secrets)
