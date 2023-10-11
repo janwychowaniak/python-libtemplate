@@ -9,6 +9,7 @@
   - [For Development](#installation-for-development)
 - [Usage](#usage)
 - [Testing](#testing)
+- [Using the Makefile](#using-the-makefile)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -67,6 +68,42 @@ To ensure the reliability of the library, comprehensive tests have been written 
 ```bash
 pytest
 ```
+
+## Using the Makefile
+
+For ease of development, this project includes a `Makefile` that helps manage tasks such as setting up a virtual environment, building the distribution package, and running tests. Here are some commands you can use:
+
+### Setting up a Virtual Environment
+
+```bash
+make venv
+```
+
+### Building the Library
+
+```bash
+make build
+```
+
+### Installing the Library for Development
+
+```bash
+make install-dev
+```
+
+### Running Tests
+
+```bash
+make test
+```
+
+### Cleaning Build Artifacts and Cache
+
+```bash
+make clean-all
+```
+
+For a detailed look at all the available commands, review the `Makefile`.
 
 ## Contributing
 
