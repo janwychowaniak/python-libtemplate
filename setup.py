@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 setup(
     name="python-libtemplate",
     version="0.1.1",
-    packages=find_packages(),
+    packages=find_packages(where='src'),
     package_dir={"": "src"},
     install_requires=requirements,
     author="Jan Wychowaniak",
