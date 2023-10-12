@@ -7,10 +7,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="python-libtemplate",
-    version="0.1.1",
-    packages=find_packages(where='src'),
-    package_dir={"": "src"},
-    install_requires=requirements,
+    version="1.0.0",
     author="Jan Wychowaniak",
     description="A simple demonstration library and a template for Python libraries",
     license="MIT",
@@ -18,4 +15,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url="https://github.com/janwychowaniak/python-libtemplate.git",
+    packages=find_packages(where='src'),
+    package_dir={"": "src"},
+    install_requires=requirements,
 )
