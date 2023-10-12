@@ -19,5 +19,6 @@ def test_solve_linear_equation():
 def test_quadratic_formula_no_real_solution():
     # Custom exception test.
     import pytest
-    with pytest.raises(NoRealSolutionError):
+    with pytest.raises(NoRealSolutionError,
+                       match="The quadratic equation has no real solution."):
         algebra.quadratic_formula(1, 0, 1)

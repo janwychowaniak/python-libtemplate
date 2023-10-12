@@ -1,10 +1,11 @@
+from typing import Tuple, Union
 from loguru import logger
 
 from .arithmetic import subtract
 from .exceptions import NoRealSolutionError
 
 
-def quadratic_formula(a, b, c):
+def quadratic_formula(a: float, b: float, c: float) -> Tuple[float, float]:
     """
     Solves a quadratic equation in the form ax^2 + bx + c = 0.
     Returns the two possible solutions as (x1, x2).
@@ -21,7 +22,7 @@ def quadratic_formula(a, b, c):
     return x1, x2
 
 
-def solve_linear_equation(a, b):
+def solve_linear_equation(a: float, b: float) -> Union[float, str]:
     """
     Solve the equation ax + b = 0 for x.
 
